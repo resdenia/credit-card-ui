@@ -1,0 +1,11 @@
+.background-element {
+    background-color: var(--black);
+    background-image: url('../assets/images/background-color.png');
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    max-width: 483px;
+    width: 100%;
+}

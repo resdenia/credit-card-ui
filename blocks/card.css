@@ -1,0 +1,11 @@
+.card-element {
+    max-width: 447px;
+    height: 245px;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.card-element-front {
+}
+.card-element-back {
+}
