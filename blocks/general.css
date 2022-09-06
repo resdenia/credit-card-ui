@@ -1,6 +1,8 @@
 :root {
     --white: #ffffff;
     --black: #21092f;
+    --black-light: #2f2f2f;
+    --grey: #adb5be;
     --linear-gradient-violet: linear-gradient(
         163.95deg,
         #6348fe 4.74%,
