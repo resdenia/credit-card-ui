@@ -1,10 +1,5 @@
-html,
-body {
-    box-sizing: border-box;
-    margin: 0;
-}
-
 :root {
+    --white: #ffffff;
     --black: #21092f;
     --linear-gradient-violet: linear-gradient(
         163.95deg,
@@ -16,6 +11,14 @@ body {
         #ffffff 5%,
         #d2d3d9 91.69%
     );
+    --main-font: 'Space Grotesk', sans-serif;
+}
+
+html,
+body {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: var(--main-font);
 }
 
 .container {
@@ -27,4 +30,7 @@ body {
 
 .row {
     display: flex;
+}
+.section {
+    width: 50%;
 }
