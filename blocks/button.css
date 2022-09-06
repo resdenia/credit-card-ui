@@ -1,0 +1,12 @@
+.form-button_confirm {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 23px;
+    color: #ffffff;
+    border: 0px;
+    height: 53px;
+    border-radius: 8px;
+    background-color: var(--black);
+    font-family: var(--main-font);
+}

@@ -21,6 +21,7 @@ body {
     box-sizing: border-box;
     margin: 0;
     font-family: var(--main-font);
+    transition: 0.3s all ease-in-out;
 }
 
 .container {
@@ -35,4 +36,14 @@ body {
 }
 .section {
     width: 50%;
+}
+.main {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    position: absolute;
+}
+.align-items {
+    display: flex;
+    align-items: center;
 }
