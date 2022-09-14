@@ -30,7 +30,7 @@
 									<div class="circle-full"></div>
 									<div class="circle-empty"></div>
 								</div>
-								<div class="card-number">
+								<div class="card-number" cardInfo="cardNumber">
 									<span class="card-number-text">0000</span>
 									<span class="card-number-text">0000</span>
 									<span class="card-number-text">0000</span>
@@ -38,9 +38,9 @@
 
 								</div>
 								<div class="card-info">
-									<p class="card-name">JANE APPLESEED</p>
-									<p class="card-date"><span class="card-month">00</span>/<span
-											class="card-year">00</span></p>
+									<p class="card-name" cardInfo="cardholder">JANE APPLESEED</p>
+									<p class="card-date"><span class="card-month" cardInfo="cardMonth">00</span>/<span
+											class="card-year" cardInfo="cardYear">00</span></p>
 								</div>
 							</div>
 						</div>
@@ -50,7 +50,7 @@
 						<div class="card-wrapper-black">
 							<div class="card-back-line"></div>
 							<div class="card-back-number">
-								<p class="back-number-text">000</p>
+								<p class="back-number-text" cardInfo="cvc">000</p>
 							</div>
 							<div class="card-back-fake-data">
 								<svg width="186" height="26" viewBox="0 0 186 26" fill="none">
@@ -84,8 +84,8 @@
 						</div>
 						<div class="form-control">
 							<label class="form-label" for="cardNumber">Card Number</label>
-							<input class="form-input" name="cardNumber" placeholder="e.g 1234 5678 9123 0000"
-								type="text">
+							<input class="form-input" name="cardNumber" maxlength="16"
+								placeholder="e.g 1234 5678 9123 0000" type="text">
 						</div>
 
 						<div class="form-control-fields">
@@ -93,13 +93,16 @@
 
 								<label class="form-label" for="cardMonth">Exp. Date (mm/yy)</label>
 								<div class="wrapper-inputs">
-									<input class="form-input" placeholder="MM" name="cardMonth" type="text">
-									<input class="form-input" placeholder="YY" name="cardYear" type="text">
+									<input class="form-input" placeholder="MM" maxlength="2" minlength="2"
+										name="cardMonth" type="text">
+									<input class="form-input" placeholder="YY" maxlength="2" minlength="2"
+										name="cardYear" type="text">
 								</div>
 							</div>
 							<div class="form-control-field">
 								<label class="form-label" for="cvc">CVC</label>
-								<input class="form-input" name="cvc" placeholder="e.g 123" type="text">
+								<input class="form-input" name="cvc" maxlength="3" minlength="3" placeholder="e.g 123"
+									type="text">
 							</div>
 						</div>
 
