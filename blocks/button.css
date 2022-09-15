@@ -9,4 +9,5 @@
     border-radius: 8px;
     background-color: var(--black);
     font-family: var(--main-font);
+    cursor: pointer;
 }

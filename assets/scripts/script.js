@@ -12,9 +12,23 @@ class CreditCardHandler {
     onChangeInfo = () => {
         this._inputs.forEach((input) => {
             input.addEventListener('input', (e) => {
-                document.querySelector(
-                    `[cardInfo='${e.target.name}']`,
-                ).textContent = e.target.value;
+                if (e.target.name === 'cardNumber') {
+                    if (e.target.value.toString().split('').length / 4 > 4) {
+                        return;
+                    }
+                    const position =
+                        e.target.value.toString().split('').length / 4;
+                    console.log(Math.floor(position));
+                    document.querySelector(
+                        `[cardInfo='${
+                            e.target.name
+                        }'] span:nth-child(${Math.floor(position + 1)})`,
+                    ).textContent = e.target.value;
+                } else {
+                    document.querySelector(
+                        `[cardInfo='${e.target.name}']`,
+                    ).textContent = e.target.value;
+                }
             });
         });
     };

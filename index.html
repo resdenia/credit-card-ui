@@ -80,11 +80,12 @@
 					<form class="credit-card-form">
 						<div class="form-control">
 							<label class="form-label" for="cardholder">Cardholder Name</label>
-							<input class="form-input" name="cardholder" placeholder="e.g Jane Appleseed" type="text">
+							<input class="form-input" required name="cardholder" placeholder="e.g Jane Appleseed"
+								type="text">
 						</div>
 						<div class="form-control">
 							<label class="form-label" for="cardNumber">Card Number</label>
-							<input class="form-input" name="cardNumber" maxlength="16"
+							<input class="form-input" requred name="cardNumber" maxlength="16"
 								placeholder="e.g 1234 5678 9123 0000" type="text">
 						</div>
 
@@ -93,16 +94,16 @@
 
 								<label class="form-label" for="cardMonth">Exp. Date (mm/yy)</label>
 								<div class="wrapper-inputs">
-									<input class="form-input" placeholder="MM" maxlength="2" minlength="2"
+									<input class="form-input" required placeholder="MM" maxlength="2" minlength="2"
 										name="cardMonth" type="text">
-									<input class="form-input" placeholder="YY" maxlength="2" minlength="2"
+									<input class="form-input" required placeholder="YY" maxlength="2" minlength="2"
 										name="cardYear" type="text">
 								</div>
 							</div>
 							<div class="form-control-field">
 								<label class="form-label" for="cvc">CVC</label>
-								<input class="form-input" name="cvc" maxlength="3" minlength="3" placeholder="e.g 123"
-									type="text">
+								<input class="form-input" required name="cvc" maxlength="3" minlength="3"
+									placeholder="e.g 123" type="text">
 							</div>
 						</div>
 
