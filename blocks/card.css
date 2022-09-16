@@ -52,11 +52,21 @@
     line-height: 36px;
     letter-spacing: 3.42222px;
     color: #ffffff;
-
-    margin-left: 6px;
+}
+.card-number-text span {
+    text-align: justify;
+    width: 100%;
+    margin: 0px;
+    letter-spacing: 3.8px;
+}
+.card-number-text span:nth-child(4),
+.card-number-text span:nth-child(8),
+.card-number-text span:nth-child(12) {
+    margin-right: 6px;
 }
 .card-number {
     margin-top: 64px;
+    display: flex;
 }
 .card-back-line {
     background: var(--black-light);
