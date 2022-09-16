@@ -9,3 +9,10 @@
     max-width: 483px;
     width: 100%;
 }
+
+@media (max-width: 992px) {
+    .background-element {
+        max-height: 240px;
+        width: 100%;
+    }
+}

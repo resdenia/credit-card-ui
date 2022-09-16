@@ -1,0 +1,35 @@
+.on-submission-successful {
+    max-width: 381px;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    display: none;
+}
+.on-submission-info_title {
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 36px;
+    text-align: center;
+    letter-spacing: 3.42222px;
+    color: #21092f;
+    text-transform: uppercase;
+    margin: 0px;
+}
+.on-submission-info_description {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 23px;
+    text-align: center;
+    color: #8f8694;
+    margin: 0px;
+}
+
+.button_continue {
+    width: 100%;
+}
+
+.on-submission-info {
+    margin-top: 35px;
+    margin-bottom: 48px;
+}
