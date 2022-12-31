@@ -14,5 +14,6 @@
     .background-element {
         max-height: 240px;
         width: 100%;
+        max-width: 100%;
     }
 }
